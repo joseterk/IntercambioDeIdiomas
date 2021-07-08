@@ -31,6 +31,9 @@ namespace IntercambioDeIdiomas
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<USUARIO> USUARIO { get; set; }
         public virtual DbSet<COMUNIDAD_AUTONOMA> COMUNIDAD_AUTONOMA { get; set; }
+        public virtual DbSet<LENGUAJES> LENGUAJES { get; set; }
+        public virtual DbSet<CIUDADES> CIUDADES { get; set; }
+        public virtual DbSet<MENSAJES> MENSAJES { get; set; }
     
         public virtual int sp_alterdiagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
         {

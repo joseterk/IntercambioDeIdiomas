@@ -11,7 +11,7 @@ namespace IntercambioDeIdiomas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("CrearPerfil.aspx",true);
+            //Response.Redirect("CrearPerfil.aspx",true);
             //ProbarBD();
         }
 

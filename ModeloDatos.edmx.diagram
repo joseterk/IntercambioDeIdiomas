@@ -9,6 +9,12 @@
         <EntityTypeShape EntityType="IntercambioIdiomasModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="IntercambioIdiomasModel.USUARIO" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="IntercambioIdiomasModel.COMUNIDAD_AUTONOMA" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="IntercambioIdiomasModel.LENGUAJES" Width="1.5" PointX="0.75" PointY="8.25" />
+        <AssociationConnector Association="IntercambioIdiomasModel.FK__USUARIO__idioma___628FA481" />
+        <AssociationConnector Association="IntercambioIdiomasModel.FK__USUARIO__idioma___6383C8BA" />
+        <EntityTypeShape EntityType="IntercambioIdiomasModel.CIUDADES" Width="1.5" PointX="5.375" PointY="1" />
+        <EntityTypeShape EntityType="IntercambioIdiomasModel.MENSAJES" Width="1.5" PointX="5.375" PointY="4.75" />
+        <AssociationConnector Association="IntercambioIdiomasModel.FK__USUARIO__CIUDAD__68487DD7" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
