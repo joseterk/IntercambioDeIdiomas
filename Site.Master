@@ -47,21 +47,27 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Nombre de la aplicación</a>
+                    <a class="navbar-brand" runat="server" href="~/">Búsqueda de compañer@ para intercambio de idiomas</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
+                        <li><a runat="server" href="~/Vistas/CrearPerfil.aspx">CrearPerfil</a></li>
+                        <li><a runat="server" href="~/Vistas/Login.aspx">Log In</a></li>
+                         <li><a runat="server" href="~/Vistas/Buscador.aspx">Buscador</a></li>
+                        <li id="LiMensajeria" style="display:none"><a runat="server" href="~/Vistas/Mensajeria.aspx">Mensajeria</a></li>
+                        <li id="LiMatches" style="display:block"><a runat="server" href="~/Vistas/Matches.aspx">Matches</a></li>
+                        <li><asp:Label id="lbUsuario" runat="server" visible="false" Text="UsuarioPrueba"></asp:Label></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+        <div class="container body-content" style="background-color:whitesmoke; width:86%; align-content:center">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
+            </asp:ContentPlaceHolder >
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+                
             </footer>
         </div>
 

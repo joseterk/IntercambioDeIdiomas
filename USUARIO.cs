@@ -20,5 +20,15 @@ namespace IntercambioDeIdiomas
         public string descripcion { get; set; }
         public string intereses { get; set; }
         public int edad { get; set; }
+        public Nullable<int> idioma_nativo { get; set; }
+        public Nullable<int> idioma_que_estudia { get; set; }
+        public string CIUDAD { get; set; }
+        public string GENERO { get; set; }
+        public string nivel_idioma_que_estudia { get; set; }
+        public string path_imagen_perfil { get; set; }
+    
+        public virtual LENGUAJES LENGUAJES { get; set; }
+        public virtual LENGUAJES LENGUAJES1 { get; set; }
+        public virtual CIUDADES CIUDADES { get; set; }
     }
 }
